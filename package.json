@@ -1,6 +1,6 @@
 {
   "name": "wytong-pub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is Hajeekn's Generic GitHub Component Repository",
   "main": "index.js",
   "scripts": {
