@@ -8,7 +8,7 @@ const index = async () => {
     name: 'wytong-pub',
     version: `${obj.date[0]}.${obj.date[1]}.${obj.date.slice(2, 13)}`,
     main: 'index.js',
-    author: 'SLQWQ',
+    author: 'Hajeekn',
     description: 'Hajeekn的自动化储存'
   }
   const pageageFileStr = JSON.stringify(pageageFile)
