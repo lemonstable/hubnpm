@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/x-ga/hubnpm.git"
   },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
   "keywords": [],
   "author": "Hajeekn",
   "license": "MIT",
