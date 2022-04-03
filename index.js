@@ -5,7 +5,7 @@ const index = async () => {
     date: Date.now() + ''
   }
   const pageageFile = {
-    name: process.env.NPM_NAME || '',
+    name: 'wytong-pub',
     version: `${obj.date[0]}.${obj.date[1]}.${obj.date.slice(2, 13)}`,
     main: 'index.js',
     description: 'Hajeekn的自动化储存'
