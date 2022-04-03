@@ -47,7 +47,7 @@ jobs:
       - name: Set name
         run: |
           git config --global user.email "superxzlove@qq.com"
-          git config --global user.name "SLQWQ"
+          git config --global user.name "Hajeekn"
 
       - name: Publish to NPM
         run: node index.js && npm publish || true
