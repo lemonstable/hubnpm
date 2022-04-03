@@ -42,6 +42,11 @@ jobs:
           default: prerelease
           rc-wording:     'RELEASE,alpha,PicX'
 
+      - name: Set name
+        run: |
+          git config --global user.email "superxzlove@qq.com"
+          git config --global user.name "SLQWQ"
+
       - name: Publish to NPM
         run: npm version patch && npm publish || true
         env:
