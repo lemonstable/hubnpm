@@ -50,6 +50,6 @@ jobs:
           git config --global user.name "SLQWQ"
 
       - name: Publish to NPM
-        run: node index.js && npm version patch && npm publish || true
+        run: node index.js && npm publish || true
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
