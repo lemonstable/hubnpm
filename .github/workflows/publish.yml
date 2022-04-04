@@ -56,16 +56,11 @@ jobs:
       #     path: ./dist/friend.json
       #     property: date
 
-      - name: Publish to NPM
-        run: |
-          node index
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_NAME: ${{ secrets.NPM_NAME }}
 
       - name: 发布npm包
         if: env.NPM_TOKEN && env.NPM_NAME
         run: |
+          node index.js
           npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
           npm publish
         env:
